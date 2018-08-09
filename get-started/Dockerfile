@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM arm32v7/python:3.7-stretch
+FROM arm32v7/python:3.7-slim
 
 # Set the working directory to /app
 WORKDIR /app
